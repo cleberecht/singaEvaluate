@@ -1,0 +1,20 @@
+Package: singaEvaluate
+Title: Parse and Evaluate JSON Files resulting from SINGA Simulations.
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Christoph",
+           family = "Leberecht",
+           role = c("aut", "cre"),
+           email = "leberech@hs-mittiweda.de")
+Description: Parse and Evaluate JSON Files resulting from SINGA Simulations.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+  tibble (>= 2.1.3),
+  tidyr (>= 0.8.3),
+  dplyr (>= 0.8.1),
+  stringr (>= 1.4.0),
+  purrr (>= 0.3.3),
+  jsonlite (>= 1.6)
+RoxygenNote: 6.1.1
