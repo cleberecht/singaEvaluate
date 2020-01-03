@@ -7,7 +7,7 @@
 #' @import dplyr
 #' @import tidyr
 #' @export
-parse_logs <- function(observation_folder, parameter_names = vector()) {
+parse_all_logs <- function(observation_folder, parameter_names = vector()) {
 
   setwd(observation_folder);
   folder_name <- dir()

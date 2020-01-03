@@ -1,6 +1,6 @@
 Package: singaEvaluate
 Title: Parse and Evaluate JSON Files resulting from SINGA Simulations.
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: 
     person(given = "Christoph",
            family = "Leberecht",
